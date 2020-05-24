@@ -10,7 +10,7 @@ end
 def count_empty_strings(array)
   binding.pry
   array.count do |element|
-    element == nil 
+    element == "" 
   end 
   
   # Return the total number of EMPTY strings in the provided array using the count enumerable
